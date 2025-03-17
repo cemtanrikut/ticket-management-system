@@ -22,17 +22,12 @@ export const getTicketById = async (ticketId) => {
     return await axios.get(`${API_URL}/tickets/${ticketId}`);
 };
 
-// Müşteri listesi getir
-export const getCustomers = async () => {
-    return await axios.get(`${API_URL}/customers`);
+// Ticket için mesajları getir
+export const getMessages = async (ticketId) => {
+    return await axios.get(`${API_URL}/messages/${ticketId}`);
 };
 
-// Çalışan listesi getir
-export const getWorkers = async () => {
-    return await axios.get(`${API_URL}/workers`);
-};
-
-// Bina listesi getir
-export const getBuildings = async () => {
-    return await axios.get(`${API_URL}/buildings`);
+// Ticket için mesaj gönder
+export const sendMessage = async (ticketId, messageData) => {
+    return await axios.post(`${API_URL}/messages/${ticketId}`, messageData);
 };
