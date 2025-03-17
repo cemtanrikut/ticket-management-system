@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"os"
 
-	"ticket-management-system/config"
-	"ticket-management-system/routes"
+	"main.go/config"
+	"main.go/routes"
 
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
