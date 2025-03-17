@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"ticket-management-system/controllers"
+	"main.go/controllers"
 
 	"github.com/gorilla/mux"
 )

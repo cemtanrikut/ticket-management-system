@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"ticket-management-system/config"
-	"ticket-management-system/models"
+	"main.go/config"
+	"main.go/models"
 
 	"github.com/golang-jwt/jwt/v4"
 	"go.mongodb.org/mongo-driver/bson"

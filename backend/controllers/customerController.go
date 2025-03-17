@@ -6,8 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	"ticket-management-system/config"
-	"ticket-management-system/models"
+	"main.go/models"
+
+	"main.go/config"
 
 	"github.com/gorilla/mux"
 	"go.mongodb.org/mongo-driver/bson"

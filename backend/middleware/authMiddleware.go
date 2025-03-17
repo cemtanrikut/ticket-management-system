@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"ticket-management-system/config"
+	"main.go/config"
 
 	"github.com/golang-jwt/jwt/v4"
 	"go.mongodb.org/mongo-driver/bson"

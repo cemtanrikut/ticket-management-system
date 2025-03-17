@@ -1,8 +1,9 @@
 package routes
 
 import (
-	"ticket-management-system/controllers"
-	"ticket-management-system/middleware"
+	"main.go/middleware"
+
+	"main.go/controllers"
 
 	"github.com/gorilla/mux"
 )
